@@ -23,6 +23,16 @@ One striking example is shown in the "fridge temperature" experiment (see image 
 
 ![Fridge Temperature Prediction](fridge.png)
 
+Another visual comparison showcases how models perform with and without LLMs. The architectural variations and their results clearly indicate that introducing LLMs often degraded performance, both in terms of accuracy and computational efficiency. This is evident from the following diagrams:
+
+![Model Architectures](models.png)
+
+![Performance Degradation](degrade.png)
+LLMs often fail to outperform simpler models like moving averages or transformers fine-tuned for time series tasks. Removing LLM components from some models not only reduced complexity but also matched or improved performance.
+
+One striking example is shown in the "fridge temperature" experiment (see image below). When provided with time series data of a fridge's temperature during an electrical outage, GPT-4 failed to predict the temperature trajectory accurately. The Mean Absolute Error (MAE) was a significant 11.52, highlighting its limitations in handling real-world scenarios.
+
+![Fridge Temperature Prediction](fridge.png)
 LLMs often fail to outperform simpler models like moving averages or transformers fine-tuned for time series tasks. Removing LLM components from some models not only reduced complexity but also matched or improved performance.
 
 ### 2. Computational Inefficiency
@@ -86,12 +96,10 @@ The findings of this paper underline the importance of tailoring tools to the ta
 
 For the research community, this represents an exciting challenge. Can we design better architectures that balance LLMs’ strengths with the unique demands of time series tasks? Can we build datasets and benchmarks that push the boundaries of what’s possible? Addressing these questions will be crucial in shaping the future of AI-driven time series analysis.
 
-## Closing Remarks
+## Conclusion
 
 To sum it up, LLMs may be groundbreaking in text and image domains, but they stumble when it comes to time series forecasting. Traditional models continue to outperform them in accuracy, efficiency, and robustness. However, this does not mean LLMs are irrelevant. By addressing their current limitations and exploring hybrid approaches, such as integrating LLMs with traditional forecasting models or leveraging them for feature extraction while leaving core predictions to specialized models, we can unlock their potential for more complex and integrated tasks.
 
 For now, the takeaway is clear: when it comes to time series, the classics still hold their ground. But as we innovate and refine, LLMs might just surprise us in the future—because the story of AI is far from over.
 
-##
 *Want to explore more groundbreaking ideas from NeurIPS 2024? Check out the [NeurIPS Proceedings](https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-oral).*
-
