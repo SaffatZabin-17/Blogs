@@ -1,6 +1,6 @@
 # Are Large Language Models Useful for Time Series Forecasting?
 
-> This blog is a review of the paper ["Are Language Models Actually Useful for Time Series Forecasting?"](https://openreview.net/forum?id=DV15UbHCY1&noteId=Uu3HKxRnq3), published at NeurIPS 2024. The blog is co-authored by [Farhan Tahmidul Karim](https://github.com/farhanitrate35), [Sarder MD. Saffat Zabin](https://github.com/SaffatZabin-17), and [Ajoy Dey](https://github.com/ajoydey00001), all undergraduate seniors at CSE, BUET.
+> *This blog is a review of the paper ["Are Language Models Actually Useful for Time Series Forecasting?"](https://openreview.net/forum?id=DV15UbHCY1&noteId=Uu3HKxRnq3), published at NeurIPS 2024. The blog is co-authored by [Farhan Tahmidul Karim](https://github.com/farhanitrate35), [Sarder MD. Saffat Zabin](https://github.com/SaffatZabin-17), and [Ajoy Dey](https://github.com/ajoydey00001), all undergraduate seniors at CSE, BUET.*
 
 Large language models (LLMs) like GPT-4 have become the cool kids in the AI playground. They can write essays, craft poetry, generate images, and even create memes (though their humor is still questionable). But when it comes to time series forecasting—you know, those squiggly lines that predict stock prices or track your heart rate—can LLMs walk the talk? In their paper, *"Are Language Models Actually Useful for Time Series Forecasting?"*, researchers dive into this question. Spoiler alert: it’s not all sunshine and rainbows for LLMs in this domain. Let’s explore why.
 
