@@ -86,5 +86,6 @@ To sum it up, LLMs may be groundbreaking in text and image domains, but they stu
 
 For now, the takeaway is clear: when it comes to time series, the classics still hold their ground. But as we innovate and refine, LLMs might just surprise us in the future—because the story of AI is far from over.
 
+##
 *Want to explore more groundbreaking ideas from NeurIPS 2024? Check out the [NeurIPS Proceedings](https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-oral).*
 
