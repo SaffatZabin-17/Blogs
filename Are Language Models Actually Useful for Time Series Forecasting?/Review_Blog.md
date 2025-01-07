@@ -1,5 +1,7 @@
 # Are Large Language Models Useful for Time Series Forecasting?
 
+> This blog is a review of the paper ["Are Language Models Actually Useful for Time Series Forecasting?"](https://openreview.net/forum?id=DV15UbHCY1&noteId=Uu3HKxRnq3), published at NeurIPS 2024. The blog is co-authored by [Farhan Tahmidul Karim](https://github.com/farhanitrate35), [Sarder MD. Saffat Zabin](https://github.com/SaffatZabin-17), and [Ajoy Dey](https://github.com/ajoydey00001), all undergraduate seniors at CSE, BUET.
+
 Large language models (LLMs) like GPT-4 have become the cool kids in the AI playground. They can write essays, craft poetry, generate images, and even create memes (though their humor is still questionable). But when it comes to time series forecasting—you know, those squiggly lines that predict stock prices or track your heart rate—can LLMs walk the talk? In their paper, *"Are Language Models Actually Useful for Time Series Forecasting?"*, researchers dive into this question. Spoiler alert: it’s not all sunshine and rainbows for LLMs in this domain. Let’s explore why.
 
 ## The Problem: Time Series Forecasting and LLMs
@@ -78,8 +80,11 @@ The findings of this paper underline the importance of tailoring tools to the ta
 
 For the research community, this represents an exciting challenge. Can we design better architectures that balance LLMs’ strengths with the unique demands of time series tasks? Can we build datasets and benchmarks that push the boundaries of what’s possible? Addressing these questions will be crucial in shaping the future of AI-driven time series analysis.
 
-## Conclusion
+## Closing Remarks
 
 To sum it up, LLMs may be groundbreaking in text and image domains, but they stumble when it comes to time series forecasting. Traditional models continue to outperform them in accuracy, efficiency, and robustness. However, this does not mean LLMs are irrelevant. By addressing their current limitations and exploring hybrid approaches, such as integrating LLMs with traditional forecasting models or leveraging them for feature extraction while leaving core predictions to specialized models, we can unlock their potential for more complex and integrated tasks.
 
 For now, the takeaway is clear: when it comes to time series, the classics still hold their ground. But as we innovate and refine, LLMs might just surprise us in the future—because the story of AI is far from over.
+
+*Want to explore more groundbreaking ideas from NeurIPS 2024? Check out the [NeurIPS Proceedings](https://openreview.net/group?id=NeurIPS.cc/2024/Conference#tab-accept-oral).*
+
