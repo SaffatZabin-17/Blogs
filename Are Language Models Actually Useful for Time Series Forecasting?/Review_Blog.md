@@ -19,6 +19,11 @@ The authors of this paper rigorously evaluated LLMs in time series forecasting. 
 ### 1. LLMs Are Not the MVPs for Time Series
 LLMs often fail to outperform simpler models like moving averages or transformers fine-tuned for time series tasks. Removing LLM components from some models not only reduced complexity but also matched or improved performance.
 
+One striking example is shown in the "fridge temperature" experiment (see image below). When provided with time series data of a fridge's temperature during an electrical outage, GPT-4 failed to predict the temperature trajectory accurately. The Mean Absolute Error (MAE) was a significant 11.52, highlighting its limitations in handling real-world scenarios.
+
+![Fridge Temperature Prediction](fridge.png)
+LLMs often fail to outperform simpler models like moving averages or transformers fine-tuned for time series tasks. Removing LLM components from some models not only reduced complexity but also matched or improved performance.
+
 ### 2. Computational Inefficiency
 LLMs are computationally demanding. Their high training and inference costs make them impractical for time-sensitive applications like high-frequency trading, where predictions must be made in milliseconds.
 
