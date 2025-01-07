@@ -23,17 +23,13 @@ One striking example is shown in the "fridge temperature" experiment (see image 
 
 ![Fridge Temperature Prediction](fridge.png)
 
-Another visual comparison showcases how models perform with and without LLMs. The architectural variations and their results clearly indicate that introducing LLMs often degraded performance, both in terms of accuracy and computational efficiency. This is evident from the following diagrams:
+Another visual comparison showcases how models perform with and without LLMs. The architectural variations and their results as found and depicted by the authors of the paper clearly indicates that introducing LLMs often degraded performance, both in terms of accuracy and computational efficiency. This is evident from the following diagrams, which are taken from a [presentation](https://www.youtube.com/watch?v=_7v5ICY0L_c&ab_channel=USCInformationSciencesInstitute) by one of the authors of the paper:
 
 ![Model Architectures](models.png)
 
+The results show that LLMs often fail to outperform simpler models like moving averages or transformers fine-tuned for time series tasks. Removing LLM components from some models not only reduced complexity but also matched or improved performance.
+
 ![Performance Degradation](degrade.png)
-LLMs often fail to outperform simpler models like moving averages or transformers fine-tuned for time series tasks. Removing LLM components from some models not only reduced complexity but also matched or improved performance.
-
-One striking example is shown in the "fridge temperature" experiment (see image below). When provided with time series data of a fridge's temperature during an electrical outage, GPT-4 failed to predict the temperature trajectory accurately. The Mean Absolute Error (MAE) was a significant 11.52, highlighting its limitations in handling real-world scenarios.
-
-![Fridge Temperature Prediction](fridge.png)
-LLMs often fail to outperform simpler models like moving averages or transformers fine-tuned for time series tasks. Removing LLM components from some models not only reduced complexity but also matched or improved performance.
 
 ### 2. Computational Inefficiency
 LLMs are computationally demanding. Their high training and inference costs make them impractical for time-sensitive applications like high-frequency trading, where predictions must be made in milliseconds.
