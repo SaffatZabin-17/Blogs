@@ -1,5 +1,9 @@
 # In-Depth Review of Blog: Exploring DxMI - A Maximum Entropy IRL Approach for Diffusion Models
 
+Author: 19050067, 1905073, 1905090 (Group 21)
+
+Reviewer: 1905060 (Group 8)
+
 ## Introduction
 This blog explores the novel framework introduced by Yoon et al. in their NeurIPS 2024 paper titled *"Maximum Entropy Inverse Reinforcement Learning of Diffusion Models with Energy-Based Models"*. The framework, named **Diffusion by Maximum Entropy IRL (DxMI)**, tackles a critical challenge in diffusion models: achieving high-quality sample generation with significantly fewer steps. The blog does a commendable job presenting the core ideas, such as the integration of energy-based models (EBMs) and the dynamic programming algorithm, **Diffusion by Dynamic Programming (DxDP)**. It also contextualizes these advancements as solutions to longstanding issues in generative modeling.
 
@@ -91,13 +95,13 @@ Expanding the blog's application section to include these real-world examples wo
 ## Overall Score
 
 ### Detailed Ratings:
-- **Content Quality:** 8.5/10 (Clear but could be more detailed)
+- **Content Quality:** 9/10 (Clear but could be more detailed)
 - **Structure and Organization:** 9/10 (Well-structured, logical flow)
-- **Engagement and Accessibility:** 8/10 (Good for general audiences, less so for experts)
-- **Depth of Analysis:** 7/10 (Lacks critical exploration and real-world connections)
+- **Engagement and Accessibility:** 9/10 (Good for general audiences, less so for experts)
+- **Depth of Analysis:** 8/10 (Lacks critical exploration and real-world connections)
 - **Visual and Supporting Materials:** 9/10 (Strong visual aids and examples)
 
-**Final Score:** **8.3/10**
+**Final Score:** **8.8/10**
 
 ---
 
