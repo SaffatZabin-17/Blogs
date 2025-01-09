@@ -1,6 +1,6 @@
 # In-Depth Review of Blog: Exploring DxMI - A Maximum Entropy IRL Approach for Diffusion Models
 
-**Author: 19050067, 1905073, 1905090 (Group 21)**
+**Author: 1905067, 1905073, 1905090 (Group 21)**
 
 **Reviewer: 1905060 (Group 8)**
 
